@@ -320,23 +320,47 @@ these make the slideshow work
 
 @media only screen and (min-width: 1200px) {}
 
+
+  @media only screen {
+    .parallax {
+      /* The image used */
+      background-image: url("Roofing_2_small.jpg");
+
+      /* Transparent Overlay */
+      background-color: black;
+      opacity: 1;
+
+      /* Full height */
+      height: 600px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+@media only screen and (min-width: 750px) {
 .parallax {
-  /* The image used */
-  background-image: url("Roofing_2.jpg");
+    /* The image used */
+    background-image: url("Roofing_2.jpg");
 
-  /* Transparent Overlay */
-  background-color: black;
-  opacity: 1;
+    /* Transparent Overlay */
+    background-color: black;
+    opacity: 1;
 
-  /* Full height */
-  height: 600px;
+    /* Full height */
+    height: 600px;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
+
 
 
 * {
@@ -346,7 +370,7 @@ these make the slideshow work
 .caption {
   position: relative;
   left: 0;
-  top: 50%;
+  top: 25%;
   width: 100%;
   text-align: center;
   color: #000;
