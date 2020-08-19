@@ -30,7 +30,7 @@ a:hover {
   color: #699d9e;
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 1000px) {
   .hide_medium {
   display: none;
   }
@@ -295,7 +295,7 @@ these make the slideshow work
   }
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 1000px) {
   .show_small {
     display:none;
   }
@@ -444,7 +444,7 @@ these make the slideshow work
     max-width: 1200px;
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 1000px) {
 /* Modal Content */
 .modal-content {
   position: relative;
@@ -559,7 +559,7 @@ these make the slideshow work
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 1000px) {
   .col-medium-1 {width: 8.33%;}
   .col-medium-2 {width: 16.66%;}
   .col-medium-3 {width: 25%;}
@@ -575,7 +575,7 @@ these make the slideshow work
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1002) {
   .col-large-1 {width: 8.33%;}
   .col-large-2 {width: 16.66%;}
   .col-large-3 {width: 25%;}
